@@ -1,0 +1,48 @@
+main {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body{
+  margin: 0px;
+}
+a {
+  color: white;
+}
+
+p{
+  font-size: 20px;
+}
+
+#navbar{
+  height: auto;
+  width: auto;
+  background: lightskyblue;
+}
+
+#navbar-container{
+  height: 10%;
+  width: 100%;
+}
+
+#img{
+  height: auto;
+  width: auto;
+}
+
+#image{
+  width: 10%;
+}
+
+#links{
+  width: 90%;
+  height: auto;
+}
+
+.item{
+  height: 50px;
+  margin: 20px 20px 20px 20px;
+}
+
+.link{
+  font-size: 24px;
+}

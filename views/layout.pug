@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title= 'Whassup Daily: | ' + title
+    link(rel='icon', href='/images/favicon.png', type='image/x-icon')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      nav
+        div(id="navbar")
+          div(id="navbar-container")
+            span(id="img")
+              img(src="/images/logo.png",id="image")
+            span(id="links")
+              span(class="item")
+                a(href="/",class="link") Home
+              span(class="item")
+                a(href="/science",class="link") Science
+              span(class="item")
+                a(href="/politics",class="link") Politics
+              span(class="item")
+                a(href="/sports",class="link") Sports
+              span(class="item")
+                a(href="/entertainment",class="link") Entertainment
+              span(class="item")
+                a(href="/economy",class="link") Economy
+    main
+      block content
