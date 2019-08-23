@@ -12,17 +12,24 @@ html
             span(id="img")
               img(src="/images/logo.png",id="image")
             span(id="links")
-              span(class="item")
-                a(href="/",class="link") Home
-              span(class="item")
-                a(href="/science",class="link") Science
-              span(class="item")
-                a(href="/politics",class="link") Politics
-              span(class="item")
-                a(href="/sports",class="link") Sports
-              span(class="item")
-                a(href="/entertainment",class="link") Entertainment
-              span(class="item")
-                a(href="/economy",class="link") Economy
+              div(id="links-container")
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/",class="link") Home
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/science",class="link") Science
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/politics",class="link") Politics
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/sports",class="link") Sports
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/entertainment",class="link") Entertainment
+                span(class="item")
+                  div(class="inner-item")
+                    a(href="/economy",class="link") Economy
     main
       block content

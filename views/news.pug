@@ -1,12 +1,13 @@
 extends layout
 
 block content
-    h1= title
-    br
-    i
-        h2 Retrieved from: "#{source}", all rights reserved to the author and the newspaper
-    br
-    p #{paragraph}
-    br
-    img(src=imgUrl,width='500px')
-    br
+    div(id="content")
+        h1= title
+        br
+        i
+            h2 Retrieved from: "#{source}", all rights reserved to the author and the newspaper
+        br
+        p(align='justify') #{paragraph}
+        br
+        img(src=imgUrl,width='500px')
+        br
